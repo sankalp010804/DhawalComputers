@@ -5,18 +5,25 @@
 
 .navbar{
     background-color: rgb(0, 206, 247);
+    color: white;
     height: 120px;  
     display: flex;
     align-items: center;
-    justify-content: left; 
-    padding: 5px;
+    justify-content: space-evenly ; 
 }
-
 .logo{
-    height: 100px;
-    width: 100px;
-    background-color: orange;
-    background-image: url(swami.webp);
+     background-image: url(swami.webp);
     background-size: cover;
-    
+    height: 100px;
+    width: 100px;  
+}
+.nameOfCenter p {
+    font-size: 5rem;
+}
+.centerCode{
+    font-size: 1rem;
+}
+.Mkcl{
+    text-align: center;
+    background-color: aquamarine;
 }
